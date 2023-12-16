@@ -21,6 +21,15 @@ while True:
 
     if char in word:
         print("yes!")
+        for i in range(0, len(word)):
+            print(char, word[i])
+            if char == word[i]:
+                blank_word[i] = char
+
     else:
         print("No!")
-health -= 1  # health = health -1
+        health -= 1  # health = health -1
+
+    if "_" not in blank_word:
+        print("You won")
+        break
