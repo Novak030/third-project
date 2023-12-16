@@ -23,15 +23,15 @@ welcome()
 
 blank_word = []
 
-
-for i in range(0, len(word)):
+"""Main section how the game works"""
+for i in range(0, len(word)):  # gets the length of the actual word
     blank_word.append("_")
 
 while True:
     print(blank_word)
     char = input("\nguess the word: ")
 
-    if char in word:
+    if char in word:  # checks if guessed letter is found in the word
         print("\nCorrect!\n")
         for i in range(0, len(word)):
             if char == word[i]:
