@@ -18,13 +18,13 @@ On this app you can play Hangman
   
   - When the app is loaded the rules are displayed.
 
-![alert image](documentation/start.png)
+![start image](documentation/start.png)
 
 - __Correct guess__
 
   - When you correctly guess a letter, a 'correct' message will be displayed, and the letter will be inserted into the underscore space.
 
-![Question Area image](documentation/won.png)
+![win image](documentation/won.png)
 
 
 
@@ -33,7 +33,7 @@ On this app you can play Hangman
   - When you make an incorrect letter guess, the remaining health (turns) will be displayed.
   
 
-![Correct answer image](documentation/lost.png)
+![lost image](documentation/lost.png)
 
 
 - __Win / Loss__
