@@ -1,6 +1,5 @@
 # imports random module
 import random
-import Pyfiglet
 # list of words to guess
 word_list = ["magical", "london", "berlin", "jazz", "thrilling", "invincible"]
 # gets a random word from the list
@@ -30,7 +29,7 @@ for i in range(0, len(word)):  # gets the length of the actual word
 
 while True:
     print(blank_word)
-    char = input("\nguess the word: ")
+    char = input("\nguess the word:\n")
 
     if char in word:  # checks if guessed letter is found in the word
         print("\nCorrect!\n")
