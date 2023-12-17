@@ -1,14 +1,14 @@
-# Quiz
+# Hangman
 
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Novak030/Second-Project/main) ![GitHub language count](https://img.shields.io/github/languages/count/Novak030/Second-Project) ![GitHub top language](https://img.shields.io/github/languages/top/Novak030/Second-Project)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Novak030/third-Project/main) ![GitHub language count](https://img.shields.io/github/languages/count/Novak030/third-Project) ![GitHub top language](https://img.shields.io/github/languages/top/Novak030/third-Project)
 
-![Am I responsive image](https://novak030.github.io/second-project//documentation/responsive.png)
+![Am I responsive image](https://novak030.github.io/third-project//documentation/responsive.png)
 
-[View The Quiz on Github Pages](https://github.com/Novak030/second-project)
+[View my Hangman-Game on Github Pages](https://github.com/Novak030/third-project)
 
-### About the website
+### About the App
 
-On my Quiz website you can test your knowledge by answering 5 questions.
+On this app you can play Hangman
 
 ## Existing Features
 
