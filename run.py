@@ -1,5 +1,6 @@
 # imports random module
 import random
+import Pyfiglet
 # list of words to guess
 word_list = ["magical", "london", "berlin", "jazz", "thrilling", "invincible"]
 # gets a random word from the list
@@ -12,8 +13,8 @@ def welcome():
     """
     Welcome text for the user before the game starts.
     """
-    print("Welcome! Here you can play hangman.")
-    print("The rules are simple.")
+    print("Welcome! Here, you can enjoy a game of Hangman.")
+    print("The rules are straightforward.")
     print("Pick a letter until you guessed the right word.")
     print("You must do it before your health run's out.")
     print("Lets play!\n")
