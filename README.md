@@ -2,7 +2,9 @@
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Novak030/third-Project/main) ![GitHub language count](https://img.shields.io/github/languages/count/Novak030/third-Project) ![GitHub top language](https://img.shields.io/github/languages/top/Novak030/third-Project)
 
-![Am I responsive image](https://novak030.github.io/third-project//documentation/responsive.png)
+![Am I responsive image](documentation/responsive.png)
+
+[Link to deployed site](https://hangman-463f08a11869.herokuapp.com/)
 
 [View my Hangman-Game on Github Pages](https://github.com/Novak030/third-project)
 
@@ -12,82 +14,60 @@ On this app you can play Hangman
 
 ## Existing Features
 
-- __Rules for the Quiz__
+- __Welcome Screen__
   
-  - When the website is loaded the rules are displayed as an alert.
+  - When the app is loaded the rules are displayed.
 
-![alert image](https://novak030.github.io/second-project//documentation/alert.png)
+![alert image](documentation/start.png)
 
-- __Start Quiz Button__
+- __Correct guess__
+
+  - When you correctly guess a letter, a 'correct' message will be displayed, and the letter will be inserted into the underscore space.
+
+![Question Area image](documentation/won.png)
+
+
+
+- __Wrong guess / Health__
   
-  - When the button is clicked, it discreetly disappears during the quiz, reappearing once the game concludes. This allows you to seamlessly restart the quiz for another round.
-
-![landing image](https://novak030.github.io/second-project//documentation/landing.png)
-
-- __Question Area__
-
-  - The question area will only showcase the current question for a brief 8-second window. If you miss this window and fail to respond, the next question is displayed.
-
-![Question Area image](https://novak030.github.io/second-project//documentation/question.png)
-
-- __Score in Question Area__
-
-  - The question area will gradually display your score, incrementally revealing the number of questions you answered correctly once you've completed it.
-
-![Quiz over image](https://novak030.github.io/second-project//documentation/over.png)
-
-
-- __Answer Buttons__
-  
-  - The color of the answer buttons shifts to green when the answer is accurate, and it transitions to red when the answer is incorrect.
-  
-  - After entering an input, the other 2 buttons become unresponsive.
+  - When you make an incorrect letter guess, the remaining health (turns) will be displayed.
   
 
-![Correct answer image](https://novak030.github.io/second-project//documentation/correct.png)
+![Correct answer image](documentation/lost.png)
 
 
+- __Win / Loss__
+ - When you win the game a "You Win!" message is displayed.
+ - When you loose the game a "You lost" message is displayed.
 
-![Incorrect answer image](https://novak030.github.io/second-project//documentation/wrong.png)
+## Features Left to Implement
+
+- Game menu and a play again button
+- Get questions from a Textfile, to input more words to guess.
 
 
-### Features Left to Implement
+## Bugs
 
-- Implementing a progression bar that visually indicates the remaining time until the next question
-- Randomize questions and add more questions.
+- When the game is finished and you guessed the last letter, the letter is not displayed in the underscore space.
 
-
-## Testing
-
-- Starting with desktop browsers, I tested the website's compatibility with Firefox and Chrome. The design and functionality were consistent across the board.
-  
-- The website is not only visually appealing but also boasts a high level of responsiveness. I tested its adaptability across various screen sizes using Google Chrome's developer tools, ensuring a seamless and user-friendly experience on every device.
-
-- The code got verified through both CSS and HTML validators
-
-### Lighthouse
-
-I also tested the Website with lighthouse.
-- Desktop Test
-
-![Lighthouse Desktop image](https://novak030.github.io/second-project//documentation/desktoplighthouse.png)
-
-- Mobile Test
- 
-![Lighthouse Mobile image](https://novak030.github.io/second-project//documentation/mobilelighthouse.png)
+- When you guessed the word, it is not shown as an result.
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+This project was deployed through heroku:
 
-[View The Quiz on Github Pages](https://github.com/Novak030/second-project)
+Follow the step below:
 
-### Media
+- Create heroku app
 
-- The Background-Image used on the website is free to use from [Freepik](https://www.freepik.com/)
-  
-- The font "Shadows Into Light" is taken from 
- [Google Fonts](https://fonts.google.com/)
+- Add name for the app
+
+- Choose either Europe or United States
+
+- Set the buildbacks first to Python and afterward NodeJS
+
+- Add The key is PORT and the value is 8000 to the Config Vars
+
+- Connect to GitHub and then search for the project by the name
+
+- Click Deploy
